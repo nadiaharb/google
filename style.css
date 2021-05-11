@@ -1,1 +1,156 @@
-empty
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background:#fff;
+}
+
+.links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    display:inline-block;
+    flex-grow:1;
+
+}
+#link1, #link2 {
+     padding: 6px;
+     font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    text-decoration: none;
+
+}
+#link1:hover,#link2:hover
+{
+    text-decoration: underline;
+}
+.img {
+    padding: 143px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    margin-top:auto
+
+
+}
+
+
+.img1 {
+
+    max-height:92px;
+    position:relative;
+
+    object-fit:contain;
+    object-position:center bottom;
+    width:auto
+}
+
+
+#google {
+     align: left;
+     font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.searchform {
+    margin-top:  -120px;
+
+
+
+}
+.box {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: fit-content;
+    height: fit-content;
+    color: -internal-light-dark(black, white);
+    margin: auto;
+
+    padding: 0.01em;
+}
+#sbox {
+    margin-left: -170px;
+    border: 1px solid #ddd;
+    color: rgb(0,0,0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+
+    border-radius: 25px;
+    width: 220%;
+    height: 47px;
+    transition: box-shadow 100ms;
+    outline: none;
+}
+
+.btns {
+    padding: 30px;
+}
+#btn1, #btn2 {
+    background: none;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+    height: 35px;
+}
+#btn1:hover, #btn2:hover
+{
+    border: 1px solid #ccc;
+}
+
+
+.icon {
+    position: absolute;
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 12px;
+    margin-left: -170px;
+    pointer-events: none;
+    align-items: center;
+}
+#lang{
+    margin-left: 36%;
+    padding: 140px;
+    display:inline-block;
+    line-height:28px;
+    font-size: small;
+    text-decoration: none;
+
+}
+
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+}
+
+.row {
+    padding: 15px 25px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.images {
+    color:#4285f4;
+    font:16px/16px roboto-regular, arial, sans-serif;
+    position:relative;
+    left:215px;
+    top:-10px;
+    white-space:nowrap
+}
