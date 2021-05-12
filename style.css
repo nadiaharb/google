@@ -236,5 +236,18 @@
 }
 #btn3 {
     margin-top: 25px;
-    margin-left: 37%;
+    margin-left: 39%;
+    height: 30px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    min-width: 120px;
 }
